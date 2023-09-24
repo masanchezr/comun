@@ -5,11 +5,10 @@
 	<parent>
 		<groupId>com.atmj</groupId>
 		<artifactId>parentpom</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2</version>
 	</parent>
 	<groupId>atmj</groupId>
 	<artifactId>comun</artifactId>
-	<version>0.0.1</version>
 	<name>comun</name>
 	<description>Clases comunes para todos los proyectos</description>
 	<build>
