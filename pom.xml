@@ -5,21 +5,20 @@
 	<parent>
 		<groupId>com.atmj</groupId>
 		<artifactId>parentpom</artifactId>
-		<version>0.0.3</version>
+		<version>0.0.4</version>
 	</parent>
 	<groupId>atmj</groupId>
 	<artifactId>comun</artifactId>
 	<name>comun</name>
 	<description>Clases comunes para todos los proyectos</description>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
